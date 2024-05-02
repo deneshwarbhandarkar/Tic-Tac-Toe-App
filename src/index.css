@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    height: 100vh;
+    background-image: url("../public/background.jpg");
+    /* background-size: cover;
+    opacity: 85%; */
+}
