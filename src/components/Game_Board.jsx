@@ -105,7 +105,14 @@ function Game_Board(props) {
             [null, null, null]
         ]);
 
-        setWinner(false);
+        if (winner === true) {
+            setWinner(false);
+        }
+        if (conclusion === "Draw") {
+            setConclusion();
+        }
+        setTurn("X");
+
     }
 
     return (
